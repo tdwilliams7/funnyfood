@@ -24,10 +24,10 @@ class App extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                  <a className="nav-link">Chicken<span className="sr-only">(current)</span></a>
+                  <a className="nav-link" href='#chicken'>Chicken<span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link">Beef</a>
+                  <a className="nav-link" href='#beef'>Beef</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link disabled">Fish</a>
@@ -59,6 +59,7 @@ class App extends Component {
         <div className='chicken'>
         <div className='row'>
         <div className='col-xs-12'>
+          <a name='chicken'></a>
           <h2>Chicken</h2>
           <hr></hr>
         </div>
@@ -72,6 +73,7 @@ class App extends Component {
                 </div>
             </div>
           </div>
+
           <div className='col-sm-4'>
             <div className="card">
               <img className="card-img-top" src="http://www.seriouseats.com/recipes/assets_c/2017/09/20170902-chicken-pot-pie-vicky-wasik40-thumb-1500xauto-439266.jpg" alt="Card image cap"></img>
@@ -92,6 +94,7 @@ class App extends Component {
           </div>
         </div>
 
+        <a name='beef'></a>
         <div className='appMain row'>
           <FoodCard />
           <FoodCard />
