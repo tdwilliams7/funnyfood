@@ -52,6 +52,7 @@ button {
   margin:auto;
   margin-bottom: 2%;
   color: red;
+  width: 50%;
 }
 .moreLink:hover{
   border: 7px solid red;
@@ -69,4 +70,5 @@ a {
 
 .nav {
   margin: auto;
+
 }
