@@ -4,6 +4,7 @@
 
 .container-fluid {
   background-color: #e2e2e2;
+  background-image: url('./round.png')
 
 }
 body {
@@ -65,7 +66,7 @@ a {
 }
 .navbar{
 
-  background-color: #e2e2e2;
+  background-color: #1D7EED;
 }
 
 .nav {
